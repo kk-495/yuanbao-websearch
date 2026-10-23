@@ -4,6 +4,9 @@
 
 只依赖 Python 标准库，无需 `pip install`。密钥走环境变量，仓库里不含任何凭证。
 
+- GitHub：<https://github.com/kk-495/yuanbao-websearch>
+- Gitee：<https://gitee.com/kk_495/yuanbao-websearch>
+
 ```
 ## 查询词：贵州茅台股价 ｜ 结果 10 条 ｜ 版本 standard
 
@@ -31,10 +34,16 @@
 把整个目录复制到你的 Agent 的 skills 目录：
 
 ```bash
-git clone https://github.com/<your-name>/yuanbao-websearch.git
+git clone https://github.com/kk-495/yuanbao-websearch.git
 cp -r yuanbao-websearch ~/.workbuddy-ai/skills/     # WorkBuddy
 # cp -r yuanbao-websearch ~/.claude/skills/         # Claude Code
 # cp -r yuanbao-websearch ~/.codex/skills/          # Codex
+```
+
+国内访问 GitHub 慢的话用 Gitee 镜像：
+
+```bash
+git clone https://gitee.com/kk_495/yuanbao-websearch.git
 ```
 
 其他客户端的目录见 [`references/setup.md`](references/setup.md)。
